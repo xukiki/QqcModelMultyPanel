@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/xukiki/QqcModelMultyPanel.git", :tag => "#{s.version}" }
   
   s.source_files  = ["QqcModelMultyPanel/*.{h,m}"]
+  s.dependency "QqcSizeDef"
+  s.dependency "UIView-Qqc"
   s.dependency "QqcModelPanel"
   
 end

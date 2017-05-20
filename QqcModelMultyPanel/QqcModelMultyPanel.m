@@ -7,6 +7,8 @@
 //
 
 #import "QqcModelMultyPanel.h"
+#import "UIView+Qqc.h"
+#import "QqcSizeDef.h"
 
 #define xScreenCenter [UIScreen mainScreen].bounds.size.width/2
 #define yScreenCenter  [UIScreen mainScreen].bounds.size.height/2
